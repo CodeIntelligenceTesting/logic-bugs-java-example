@@ -13,7 +13,7 @@ public class TriangleInequalityTest {
         Double x = 1.0;
         Double y = data.consumeDouble();
 
-        Double leftSide = Math.abs(x - y);
+        Double leftSide = Math.abs(x + y);
         Double rightSide = Math.abs(x) + Math.abs(y);
 
         Assertions.assertTrue(leftSide <= rightSide);
