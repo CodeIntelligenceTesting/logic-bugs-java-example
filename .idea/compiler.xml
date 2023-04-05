@@ -10,8 +10,5 @@
         <module name="logic-bugs-java-example" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="logic-bugs-java-example" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>
