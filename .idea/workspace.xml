@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cb4e3c4-d07c-4e3d-975a-9ccbfeb18108" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FastFourierTransforms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/XMLUtilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FourierTransformTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/XMLEncodeDecodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WeekTimeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,14 +48,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FourierTransformTest.differentialTest">
-    <configuration name="FastFourierTransforms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FastFourierTransforms" />
-      <module name="logic-bugs-java-example" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.WeekTimeTest">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="bbPath" value="" />
@@ -97,40 +85,49 @@
       <setting name="focusEditor" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="EncryptDecryptTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="round-trip-example" />
+    <configuration name="TimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="logic-bugs-java-example" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EncryptDecryptTest" />
+      <option name="MAIN_CLASS_NAME" value="TimeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EncryptDecryptTest.testroundTrip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="round-trip-example" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EncryptDecryptTest" />
-      <option name="METHOD_NAME" value="testroundTrip" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FourierTransformTest.differentialTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TimeTest.days" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="logic-bugs-java-example" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FourierTransformTest" />
-      <option name="METHOD_NAME" value="differentialTest(com.code_intelligence.jazzer.api.FuzzedDataProvider)" />
+      <option name="MAIN_CLASS_NAME" value="TimeTest" />
+      <option name="METHOD_NAME" value="days" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JacksonJrTest.emptyJSONcase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="round-trip-example" />
+    <configuration name="TimeTest.unitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="logic-bugs-java-example" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JacksonJrTest" />
-      <option name="METHOD_NAME" value="emptyJSONcase" />
+      <option name="MAIN_CLASS_NAME" value="TimeTest" />
+      <option name="METHOD_NAME" value="unitTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeekTimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="logic-bugs-java-example" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WeekTimeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeekTimeTest.unitCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="logic-bugs-java-example" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WeekTimeTest" />
+      <option name="METHOD_NAME" value="unitCase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FourierTransformTest.differentialTest" />
-        <item itemvalue="Application.FastFourierTransforms" />
-        <item itemvalue="JUnit.JacksonJrTest.emptyJSONcase" />
-        <item itemvalue="JUnit.EncryptDecryptTest.testroundTrip" />
-        <item itemvalue="JUnit.EncryptDecryptTest" />
+        <item itemvalue="JUnit.WeekTimeTest" />
+        <item itemvalue="JUnit.WeekTimeTest.unitCase" />
+        <item itemvalue="JUnit.TimeTest.unitTest" />
+        <item itemvalue="JUnit.TimeTest" />
+        <item itemvalue="JUnit.TimeTest.days" />
       </list>
     </recent_temporary>
   </component>
