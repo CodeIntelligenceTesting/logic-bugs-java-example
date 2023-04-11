@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cb4e3c4-d07c-4e3d-975a-9ccbfeb18108" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/TriangleInequalityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TriangleInequalityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FastFourierTransforms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/XMLUtilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FourierTransformTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/XMLEncodeDecodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +46,57 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JacksonJrTest.emptyJSONcase">
+  <component name="RunManager" selected="JUnit.FourierTransformTest.differentialTest">
+    <configuration name="FastFourierTransforms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FastFourierTransforms" />
+      <module name="logic-bugs-java-example" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="bbPath" value="" />
+      <setting name="parameters" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <setting name="workingDir" value="" />
+      <setting name="focusEditor" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <setting name="focusEditor" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="displayName" value="" />
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="replPortFileType" value="STANDARD" />
+      <setting name="customPortFile" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <setting name="focusEditor" value="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="EncryptDecryptTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="round-trip-example" />
       <option name="PACKAGE_NAME" value="" />
@@ -64,6 +116,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FourierTransformTest.differentialTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="logic-bugs-java-example" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FourierTransformTest" />
+      <option name="METHOD_NAME" value="differentialTest(com.code_intelligence.jazzer.api.FuzzedDataProvider)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JacksonJrTest.emptyJSONcase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="round-trip-example" />
       <option name="PACKAGE_NAME" value="" />
@@ -76,6 +138,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FourierTransformTest.differentialTest" />
+        <item itemvalue="Application.FastFourierTransforms" />
         <item itemvalue="JUnit.JacksonJrTest.emptyJSONcase" />
         <item itemvalue="JUnit.EncryptDecryptTest.testroundTrip" />
         <item itemvalue="JUnit.EncryptDecryptTest" />
