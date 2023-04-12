@@ -13,6 +13,7 @@ public class WeekTimeTest {
 
         dateLater.plusDays(data.consumeLong(0L, 100L));
 
+        // Use the Joda-Time .compareTo method to determine if dateNow is "before" dateLater as expected
         Assertions.assertTrue(dateNow.compareTo(dateLater) < 0);
     }
 }
