@@ -7,7 +7,7 @@ import java.time.LocalDate;
 public class WeekTimeTest {
 
     @FuzzTest
-    public void fuzzyCase(FuzzedDataProvider data){
+    public void verifyDates(FuzzedDataProvider data){
         LocalDate dateNow = LocalDate.now();
         LocalDate dateLater = LocalDate.now();
 

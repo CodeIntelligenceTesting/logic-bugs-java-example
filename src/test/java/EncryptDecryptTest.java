@@ -16,7 +16,7 @@ import java.security.NoSuchAlgorithmException;
 public class EncryptDecryptTest {
 
     @FuzzTest
-    public void testroundTrip(FuzzedDataProvider data) throws NoSuchAlgorithmException, IllegalBlockSizeException, InvalidKeyException,
+    public void testRoundTrip(FuzzedDataProvider data) throws NoSuchAlgorithmException, IllegalBlockSizeException, InvalidKeyException,
     BadPaddingException, InvalidAlgorithmParameterException, NoSuchPaddingException {
 
         CryptoUtils utils = new CryptoUtils();
