@@ -1,3 +1,6 @@
+# project generated target files
+target/**/*
+
 # Compiled class file
 *.class
 
